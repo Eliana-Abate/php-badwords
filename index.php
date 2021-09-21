@@ -26,7 +26,7 @@
     ?>      
        
     <form action="">
-        <input type="text" name="bad_word">
+        <input type="text" name="bad_word" placeholder="Censura una parola">
         <button type="submit"> Invia</button>
     </form>
 
