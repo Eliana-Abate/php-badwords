@@ -1,6 +1,6 @@
 <?php 
     $paragraph = 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nobis quos quae et ea delectus officia ipsa molestias laborum repellat ipsum voluptas, hic a eius impedit numquam minus. Doloribus, rem tempore.';
-    $bad_word = $_GET['bad_word'];
+    //$bad_word = $_GET['bad_word'];
      
     $new_par = str_replace('adipisicing', '(***)', $paragraph);
   
@@ -22,7 +22,7 @@
         echo 'Lunghezza stringa: ' . strlen($paragraph);
         echo '<br/>';
         var_dump($paragraph);
-        
+
         echo '<hr/>';
 
         echo $new_par;
