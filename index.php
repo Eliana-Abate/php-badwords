@@ -12,7 +12,13 @@
     <title>PHP Badwords</title>
 </head>
 <body>
-    <?php echo $paragraph ?>
+    <?php echo $paragraph ; 
+        echo '<br/>';
+        echo 'Lunghezza stringa: ' . strlen($paragraph);
+        
+        var_dump($paragraph);
+        
+    ?>
     
 </body>
 </html>
