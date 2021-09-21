@@ -1,3 +1,8 @@
+<?php 
+    $paragraph = 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nobis quos quae et ea delectus officia ipsa molestias laborum repellat ipsum voluptas, hic a eius impedit numquam minus. Doloribus, rem tempore.';
+?>
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -7,6 +12,7 @@
     <title>PHP Badwords</title>
 </head>
 <body>
+    <?php echo $paragraph ?>
     
 </body>
 </html>
